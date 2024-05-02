@@ -1,0 +1,27 @@
+{
+  "name": "foodcart",
+  "version": "1.0.0",
+  "description": "This is food cart project by vineet",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineettiwari1708/foodCart.git"
+  },
+  "keywords": [
+    "react",
+    "foodCart",
+    "vineet"
+  ],
+  "author": "Vineet Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineettiwari1708/foodCart/issues"
+  },
+  "homepage": "https://github.com/vineettiwari1708/foodCart#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
