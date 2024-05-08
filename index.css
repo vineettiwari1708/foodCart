@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 90px;
+  height: 80px;
+}
+
+.menu-items ul {
+  display: flex;
+}
+.menu-items ul li {
+  list-style: none;
+  padding: 12px 40px;
+  font-weight: 700;
+  font-size: x-large;
+}
+.menu-items ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.pic-card {
+  background-color: lightgray;
+  width: 200px;
+  height: auto;
+
+  padding: 5px;
+  margin: 10px;
+}
+.pic-card:hover {
+  border: 1px solid black;
+}
+.search {
+  margin: 10px;
+}
+.img-container {
+  width: 100%;
+}
+.pic-container {
+  display: flex;
+  flex-wrap: wrap;
+}
