@@ -261,10 +261,10 @@ const Pic = () => {
   return (
     <div className="main-body">
       <div className="search">Search</div>
-
       <div className="pic-container">
-        <PicCard picCard={picCards[0]} />
-        <PicCard picCard={picCards[1]} />
+        {picCards.map((picCards) => (
+          <PicCard key={picCards.id} picCard={picCards} />
+        ))}
       </div>
     </div>
   );
