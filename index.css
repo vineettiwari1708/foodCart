@@ -24,7 +24,12 @@ body {
   text-decoration: none;
   color: black;
 }
-
+.filter-btn {
+  margin: 10px;
+  padding: 10px 30px;
+  font-size: x-large;
+  font-weight: 700;
+}
 .pic-card {
   background-color: lightgray;
   width: 200px;

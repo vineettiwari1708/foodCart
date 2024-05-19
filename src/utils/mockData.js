@@ -1,4 +1,4 @@
-const picCards = [
+let picCards = [
   {
     albumId: 1,
     id: 1,
