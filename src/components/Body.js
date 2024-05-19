@@ -4,6 +4,7 @@ import picCards from "../utils/mockData";
 const Body = () => {
   return (
     <div className="main-body">
+      <hr />
       <div className="search">Search</div>
       <div className="pic-container">
         {picCards.map((picCards) => (
